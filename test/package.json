@@ -1,0 +1,26 @@
+{
+  "name": "fitbit-schedule-test",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "fitbit": {
+    "appUUID": "9fe91d67-d189-4c3a-a522-1ab5c0aebf0b",
+    "appType": "clockface",
+    "appDisplayName": "Fitbit Schedule",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {}
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.4",
+    "@fitbit/sdk-cli": "^1.0.2"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}

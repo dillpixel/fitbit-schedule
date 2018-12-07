@@ -1,0 +1,6 @@
+<svg viewport-fill="black">
+  <use id="mixedtext" href="#mixed-text-center-mid" height="100%" fill="fb-magenta">
+    <set href="#header/text" attributeName="text-buffer" to="Fitbit Schedule"/>
+    <set href="#copy/text" attributeName="text-buffer" to="Schedule persistent recurring and non-recurring events."/>
+  </use>
+</svg>

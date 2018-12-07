@@ -1,0 +1,25 @@
+{
+  "name": "fitbit-schedule",
+  "version": "1.0.0",
+  "description": "Schedule persistent recurring and non-recurring events on Fitbit OS.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dillpixel/fitbit-later.git"
+  },
+  "keywords": [
+    "fitbitdev"
+  ],
+  "author": "Dill Pixel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dillpixel/fitbit-later/issues"
+  },
+  "homepage": "https://github.com/dillpixel/fitbit-later#readme",
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.4"
+  },
+  "scripts": {
+    "build": "tsc -project ./source/tsconfig.json --outDir ./",
+    "prepare": "npm run build"
+  }
+}
