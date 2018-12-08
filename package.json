@@ -1,6 +1,6 @@
 {
   "name": "fitbit-schedule",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Schedule persistent recurring and non-recurring events on Fitbit OS.",
   "repository": {
     "type": "git",

@@ -58,3 +58,4 @@ The ID of the event to be deleted.
 Called when an event comes due.
 #### `schedule.onmissed = event => { ... }`
 Called when an event is missed.
+>**Important:** when multiple recurring events are missed, the `onmissed` handler will only fire for the *first* missed occurrence.
